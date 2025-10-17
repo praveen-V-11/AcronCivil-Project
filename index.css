@@ -22,7 +22,7 @@ body{
 .logo-nav img {
     height: 80px;
     width: 140px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .list-itmes {
@@ -41,7 +41,7 @@ body{
 }
 
 .nav-btn {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .nav-btn button {
