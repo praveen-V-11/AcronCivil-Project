@@ -503,7 +503,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    width: 94%;
+    width: 93%;
     background-color: rgba(0,0,0,0.4); /* optional dark overlay */
     display: flex;
     flex-direction: column;
@@ -539,7 +539,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    width: 94%;
+    width: 93%;
     background-color: rgba(0,0,0,0.4); /* optional dark overlay */
     display: flex;
     flex-direction: column;
@@ -590,7 +590,7 @@ body{
      position: relative;
 }
 .sub-project-section>img{
-    height: 360px;
+    height: 330px;
     width: 100%;
     border-radius: 20px;
     object-fit: cover;
@@ -685,11 +685,11 @@ body{
 
 .upto-date-section>img{
     margin-top: 40px;
-    height: 130px;
+    height: 140px;
 }
 
 .sub-upto-date-section>img{
-    height: 200px;
+    height: 300px;
     width: 450px;
     border-radius: 20px;
 }
