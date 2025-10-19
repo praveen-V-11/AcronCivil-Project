@@ -12,7 +12,10 @@
         <div class="logo-nav">
             <img src="https://arconcivil.com.au/wp-content/uploads/2021/05/ACLogo-1-1.png" alt="">
         </div>
-        <div class="list-itmes">
+        <div class="div">
+            <button class="btn-togle" onclick="toggleMenu()">☰</button>
+        </div>
+        <div class="list-itmes" id="nav-links">
             <li>HOME</li>
             <li>ABOUT US </li>
             <li> SERVICES</li>
@@ -22,26 +25,16 @@
         <div class="nav-btn">
             <button>GET IN TOUCH</button>
         </div>
+   </div>
+     <div class="header-section">
+        <video src="http://qv5.d24.myftpupload.com/wp-content/uploads/2021/05/ArconCivilSLider1.mp4" loop   autoplay muted playsinline
+    disablepictureinpicture 
+    controlslist="nodownload nofullscreen noremoteplayback"></video>
     </div>
-    <div class="header-section">
-        <div class="first-div">
-            <h1>WELCOME TO </h1>
-            <h1 style="color: #1E1D89;">A NEW ERA</h1>
-            <h1>IN CONSTRUCTION</h1>
-        </div>
-        <div class="second-div">
-            <h1 id="scound">BULIDING A</h1>
-            <h1 id="scound" style="color: #4BEAA9;">BETTER & BRIGHTER FUTURE</h1>
-            <h1 id="scound">FOR GENRATIONS TO COME</h1>
-        </div>
-        <div class="third-div">
-            <img src="./Auido andvideos/ACLogo-1-1.png" alt="">
-        </div>
-    </div>
+
     <div class="client-section">
-        <h1>CLIENTS</h1>
+        <h1 class="client-h1">CLIENTS</h1>
         <div class="scroll-div">
-            <!-- Original logos -->
             <img src="https://arconcivil.com.au/wp-content/uploads/elementor/thumbs/Acciona_logo.svg-qqzfoau2wgur7pymkzgjvajlb08az39va9yhw5um0w.png"
                 alt="">
             <img src="https://arconcivil.com.au/wp-content/uploads/elementor/thumbs/negri-qqzftad95toit8pugn2alj8mrlneta2lmyk8k0gf0g.png"
@@ -54,7 +47,6 @@
                 alt="">
             <img src="https://arconcivil.com.au/wp-content/uploads/elementor/thumbs/799px-John_Holland_Logo-qqzfo80kbyqw8w2q1g8o5t97ium7bzyo9w01gbysjk.png"
                 alt="">
-            <!-- Duplicate logos for seamless scroll -->
             <img src="https://arconcivil.com.au/wp-content/uploads/elementor/thumbs/Acciona_logo.svg-qqzfoau2wgur7pymkzgjvajlb08az39va9yhw5um0w.png"
                 alt="">
             <img src="https://arconcivil.com.au/wp-content/uploads/elementor/thumbs/negri-qqzftad95toit8pugn2alj8mrlneta2lmyk8k0gf0g.png"
@@ -70,8 +62,26 @@
         </div>
     </div>
     </div>
-    <div class="Aboutus-section">
-        <div class="video-section">
+  <div class="Aboutus-section">
+      <div class="About-us">
+          <h1>ABOUT US</h1>
+          <p>
+              Welcome to Arcon Civil, where expertise and innovation blend seamlessly
+              to achieve excellence across both project consulting and delivery.
+          </p>
+          <p>
+              Collaborating closely with our clients, we offer tailored solutions that
+              optimise project feasibility, planning, and execution strategies. Our
+              ability to effectively manage risk, whilst minimising project delays and
+              cost overruns, is attributed to our team of highly skilled professionals
+              dedicated to upholding the highest standards of quality, safety, and
+              sustainability.
+          </p>
+          <p>
+              Arcon Civil – Building a better and brighter future for generations to come.
+          </p>
+      </div>
+         <div class="video-section">
             <iframe
                 src="https://www.youtube.com/embed/EEIfO3jp2Oc?autoplay=1&loop=1&mute=1&controls=0&playlist=EEIfO3jp2Oc"
                 title="YouTube video player" frameborder="0"
@@ -79,27 +89,11 @@
                 allowfullscreen>
             </iframe>
         </div>
-
-        <div class="About-us">
-            <h1>ABOUT US</h1>
-            <p>
-                Welcome to Arcon Civil, where expertise and innovation blend seamlessly
-                to achieve excellence across both project consulting and delivery.
-            </p>
-            <p>
-                Collaborating closely with our clients, we offer tailored solutions that
-                optimise project feasibility, planning, and execution strategies. Our
-                ability to effectively manage risk, whilst minimising project delays and
-                cost overruns, is attributed to our team of highly skilled professionals
-                dedicated to upholding the highest standards of quality, safety, and
-                sustainability.
-            </p>
-            <p>
-                Arcon Civil – Building a better and brighter future for generations to come.
-            </p>
-        </div>
+       
     </div>
-    <div class="aboutus-sub-container">
+    <hr>
+
+     <div class="aboutus-sub-container">
         <div class="first-container">
             <img src="https://arconcivil.com.au/wp-content/uploads/2021/05/arcon-icon-11.svg" alt="">
             <h1>CULTURALLY
@@ -137,7 +131,7 @@
                 Arcon Civil are committed to delivering quality projects on time and within budget.</p><br>
         </div>
     </div>
-    <div class="our-serviecs-section">
+     <div class="our-serviecs-section">
         <h1 class="our-serviecs-section-h1">OUR SERVICES</h1>
         <div class="sub-service-section">
             <div class="sub-container-1">
@@ -367,7 +361,7 @@
         </div>
 
 
-        <div class="project-section">
+       <div class="project-section">
             <h1>OUR PROJECTS</h1>
             <div class="main-projects-section">
                 <div class="sub-project-section">
@@ -375,20 +369,20 @@
 
                     <div class="sub-project-text-container">
                         <p>Burwood Highway and McMahons Road Upgrade</p>
-                        <!-- <p>30 M</p>
+                         <p>30 M</p>
                     <p>Negri Contractors & Major Road Projects Victoria</p>
                     <p>Roads</p>
-                    <p>Ferntree Gully, VIC</p> -->
+                    <p>Ferntree Gully, VIC</p> 
                     </div>
                 </div>
                 <div class="sub-project-section">
                     <img src="https://arconcivil.com.au/wp-content/uploads/2024/07/g1.png" alt="">
                     <div class="sub-project-text-container">
                         <p>Gippsland Line Upgrade</p>
-                        <!-- <p>30 M</p>
+                        <p>30 M</p>
                     <p>Negri Contractors & Major Road Projects Victoria</p>
                     <p>Roads</p>
-                    <p>Ferntree Gully, VIC</p> -->
+                    <p>Ferntree Gully, VIC</p> 
                     </div>
 
                 </div>
@@ -397,10 +391,10 @@
                     <div class="sub-project-text-container">
 
                         <p>Hall Road Upgrade</p>
-                        <!-- <p>30 M</p>
+                         <p>30 M</p>
                     <p>Negri Contractors & Major Road Projects Victoria</p>
                     <p>Roads</p>
-                    <p>Ferntree Gully, VIC</p> -->
+                    <p>Ferntree Gully, VIC</p> 
                     </div>
 
                 </div>
@@ -408,10 +402,10 @@
                     <img src="https://arconcivil.com.au/wp-content/uploads/2024/07/h1.png" alt="">
                     <div class="sub-project-text-container">
                         <p>Healesville Koo Wee Rup Road (Northern Package)</p>
-                        <!-- <p>30 M</p>
+                         <p>30 M</p>
                     <p>Negri Contractors & Major Road Projects Victoria</p>
                     <p>Roads</p>
-                    <p>Ferntree Gully, VIC</p> -->
+                    <p>Ferntree Gully, VIC</p> 
                     </div>
 
                 </div>
@@ -419,10 +413,10 @@
                     <img src="https://arconcivil.com.au/wp-content/uploads/2024/07/gh2.png" alt="">
                     <div class="sub-project-text-container">
                         <p>Healesville Koo Wee Rup Road (Southern Package)</p>
-                        <!-- <p>30 M</p>
+                         <p>30 M</p>
                     <p>Negri Contractors & Major Road Projects Victoria</p>
                     <p>Roads</p>
-                    <p>Ferntree Gully, VIC</p> -->
+                    <p>Ferntree Gully, VIC</p>
                     </div>
 
                 </div>
@@ -430,10 +424,10 @@
                     <img src="https://arconcivil.com.au/wp-content/uploads/2024/07/unnamed.png" alt="">
                     <div class="sub-project-text-container">
                         <p>Inland Rail Victoria</p>
-                        <!-- <p>30 M</p>
+                         <p>30 M</p>
                     <p>Negri Contractors & Major Road Projects Victoria</p>
                     <p>Roads</p>
-                    <p>Ferntree Gully, VIC</p> -->
+                    <p>Ferntree Gully, VIC</p> 
                     </div>
 
 
@@ -442,20 +436,20 @@
                     <img src="https://arconcivil.com.au/wp-content/uploads/2024/07/n1.png" alt="">
                     <div class="sub-project-text-container">
                         <p>North-Western Program Alliance</p>
-                        <!-- <p>30 M</p>
+                         <p>30 M</p>
                     <p>Negri Contractors & Major Road Projects Victoria</p>
                     <p>Roads</p>
-                    <p>Ferntree Gully, VIC</p> -->
+                    <p>Ferntree Gully, VIC</p> 
                     </div>
                 </div>
                 <div class="sub-project-section">
                     <img src="https://arconcivil.com.au/wp-content/uploads/2024/07/p1.png" alt="">
                     <div class="sub-project-text-container">
                         <p>Port Rail Transformation Project</p>
-                        <!-- <p>30 M</p>
+                         <p>30 M</p>
                     <p>Negri Contractors & Major Road Projects Victoria</p>
                     <p>Roads</p>
-                    <p>Ferntree Gully, VIC</p> -->
+                    <p>Ferntree Gully, VIC</p> 
                     </div>
                 </div>
             </div>
@@ -520,7 +514,7 @@
                 </p>
             </div>
         </div>
-        <div class="form-main-container">
+         <div class="form-main-container">
             <div class="form-sub-container">
                 <h1>GET IN TOUCH</h1>
                 <form action="">
@@ -542,9 +536,8 @@
                     <button class="btn"> SUBMIT</button>
                 </form>
             </div>
-        </div>
-
-        <footer style="width: 100%;">
+        </div> 
+  <footer>
         <div class="footer-header">
             <div class="logo">
                 <img src="https://arconcivil.com.au/wp-content/uploads/2021/05/header-logo.webp" alt="" />
@@ -615,11 +608,18 @@
             <p>We honour the strength and resilience of Aboriginal and Torres Strait Islander peoples and pay our respects to all Elders, past and present.</p>
         </div>
         
-    </footer>
-    <div class="copyright">
+        <div class="copyright">
             <h3>Copyright © 2025 Arcon Civil Pty Ltd. All rights reserved.</h3>
             <h3>Made by Web Divine</h3>
         </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            document.getElementById("nav-links").classList.toggle("active");
+        }
+    </script>
+
 </body>
 
 </html>
